@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400;1,600&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    background-color: red;
+    padding: 10px;
+    background-color: #d0d0d0;
+    border-radius: 15px;
+}
+
+.sign-up-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    width: 450px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 9px;
+}
+
+.header-container{
+    height: 20%;
+    width: 100%;
+    padding-left: 10px;
+}
+
+.header{
+    font-weight: 700;
+    font-size: 55px;
+}
+
+.subheader{
+    font-weight: 600;
+    font-style: italic;
+    font-size: 25px;
+}
+
+.sign-up-top, .sign-up-bottom{
+    height: 40%;
+    width: 100%;
+}
+
+.sign-up-top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+}
+
+.email-input{
+    height: 20%;
+    width: 100%;
+}
+
+.personal-information{
+    height: 60%;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.name-surname{
+    height: 30%;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.name{
+    margin-right: 3px;
+}
+
+.surname{
+    margin-left: 3px;
+}
+
+.age{
+    height: 30%;
+    width: 100%;
+}
+
+.input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.input-boxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75%;
+    width: 100%;
+    align-self: flex-start;
+}
+
+.agree-to-terms{
+    height: 60%;
+    width: 100%;
+}
+
+.divider{
+    height: 7px;
+    border: none;
+    color: #d0d0d0;
+    border-radius: 15px;
+}
+
+.optional{
+    height: 30%;
+    width: 100%;
+}
+
+label{
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+/*outset*/
+
+.chk-btm{
+    outline: 1px solid #ff0000;
+}
+
+.sign-up-button{
+    margin-bottom: 15px;
+    width: 75%;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: #d0d0d0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
